@@ -25,8 +25,8 @@ def chunks(obj, size):
     """
     Splits a list into sized chunks.
 
-    Args
-    ----
+    Parameters
+    ----------
     obj : list
         List to split up.
     size : int

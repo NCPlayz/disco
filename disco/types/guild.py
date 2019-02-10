@@ -199,8 +199,8 @@ class GuildMember(SlottedModel):
         """
         Bans the member from the guild.
 
-        Args
-        ----
+        Parameters
+        ----------
         delete_message_days : int
             The number of days to retroactively delete messages for.
         """
@@ -216,8 +216,8 @@ class GuildMember(SlottedModel):
         """
         Sets the member's nickname (or clears it if None).
 
-        Args
-        ----
+        Parameters
+        ----------
         nickname : Optional[str]
             The nickname (or none to reset) to set.
         """
