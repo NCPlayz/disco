@@ -133,7 +133,7 @@ class Ready(GatewayEvent):
     session_id : str
         The session ID.
     user : :class:`disco.types.user.User`
-        The user object for the authed account.
+        The user object for the authenticated account.
     guilds : list[:class:`disco.types.guild.Guild`
         All guilds this account is a member of. These are shallow guild objects.
     private_channels list[:class:`disco.types.channel.Channel`]
@@ -256,7 +256,7 @@ class ChannelPinsUpdate(GatewayEvent):
     ----------
     channel_id : snowflake
         ID of the channel where pins where updated.
-    last_pin_timestap : datetime
+    last_pin_timestamp : datetime
         The time the last message was pinned.
     """
     channel_id = Field(snowflake)

@@ -7,8 +7,8 @@ def take(seq, count):
     """
     Take count many elements from a sequence or generator.
 
-    Args
-    ----
+    Parameters
+    ----------
     seq : sequence or generator
         The sequence to take elements from.
     count : int

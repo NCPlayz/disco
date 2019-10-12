@@ -249,7 +249,7 @@ class Bot(LoggingClass):
                 else:
                     possible[current] = group
 
-        # Now, we want to compute the actual shortest abbreivation out of the
+        # Now, we want to compute the actual shortest abbreviation out of the
         #  possible ones
         result = {}
         for abbrev, group in six.iteritems(possible):
