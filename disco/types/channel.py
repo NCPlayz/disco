@@ -112,7 +112,7 @@ class Channel(SlottedModel, Permissible):
         The channel's bitrate.
     user_limit : int
         The channel's user limit.
-    recipients: list(:class:`disco.types.user.User`)
+    recipients : list(:class:`disco.types.user.User`)
         Members of this channel (if this is a DM channel).
     type : :const:`ChannelType`
         The type of this channel.

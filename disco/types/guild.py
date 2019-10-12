@@ -315,7 +315,7 @@ class Guild(SlottedModel, Permissible):
         All of the guild's voice states.
     premium_tier : int
         Guild's premium tier.
-    premium_subscription_count: int
+    premium_subscription_count : int
         The amount of users using their Nitro boost on this guild.
     """
     id = Field(snowflake)
